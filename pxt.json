@@ -1,0 +1,37 @@
+{
+    "name": "Gravity Guy!",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "ArcadeMIDI": "github:unsignedarduino/arcademidi#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.30",
+        "tag": "v1.8.30",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/825ea9e52c6d33c12777ef204c0406661995353f",
+        "target": "2.0.48",
+        "pxt": "7.4.31",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
